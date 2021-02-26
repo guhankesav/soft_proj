@@ -1,0 +1,243 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+.hero{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),url(amrita1.png));
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.form-box{
+  width:380px;
+  height:480px;
+  position: relative;
+  margin: 6% auto;
+  /* background: rgb(244, 252, 135); */
+  padding: 5px;
+  overflow: hidden;
+  
+}
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 10px 3px #494b51;
+  border-radius: 30px;
+}
+
+.toggle-btn{
+  padding: 10px 30px;
+  cursor:pointer;
+  background: transparent;
+  border:0;
+  outline: none;
+  position: relative;
+  font-weight: bold;
+  color: #ffe957;
+
+}
+
+#btn{
+  top:0;
+  left:0;
+  position: absolute;
+  width:110px;
+  height:100%;
+  /* background: linear-gradient((right,#ff105f,#ffad06)); */
+  background-color: #494b51;
+
+  /* background: linear-gradient(170deg, var(#ff105f), var(#ffad06)); */
+
+  border-radius: 30px;
+  transition: .5s;
+}
+.social-icons {
+  margin: 30px auto;
+  text-align: center;
+}
+.social-icons img{
+  height: 50px;
+  width: 50px;
+  margin: 30px auto;
+  text-align: 0 12px;
+  box-shadow: 0 0 20px 0 #7f7f7f3d;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  /* border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999; */
+  /* border-left: 2px solid rgb(82, 82, 82);
+  border-top: 2px solid rgb(82, 82, 82);
+  border-right:2px solid rgb(82, 82, 82);
+  border-bottom: 2px solid rgb(82, 82, 82); */
+  border-color: dimgray;
+  border-width: 3px;
+  /* outline: none; */
+  background: transparent;
+  border-radius: 6px;
+  
+}
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  top :5px;
+  /* background: linear-gradient((right,#ff105f,#ffad06)); */
+  background-color: #ffe957;
+  color:#494b51;
+  font-weight: bold;
+
+  border:0;
+  outline: none;
+  border-radius: 30px;
+}
+.check-box{
+  margin: 30px 10px 30p 0;
+  
+
+}
+.check-box1{
+  margin: 30px 10px 30p 0;
+  visibility: hidden;
+
+}
+span{
+  color:#777;
+  font-size: 12px;
+  bottom:38px;
+  /* bottom:68px; */
+  left: 20px;
+  position: absolute;
+}
+span1{
+  text-emphasis-style: initial;
+  text-decoration: underline;
+  left: 180px;
+  top:10;
+  cursor: pointer;
+  color:rgb(77, 76, 76);
+  font-size: 11px;
+  bottom:40px;
+  /* bottom:68px; */
+  position: absolute;
+}
+
+#login{
+  left: 50px;
+}
+#register{
+  left: 450px;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 2px solid rgb(104, 103, 103);
+  /* #aaa */
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  /* background: rgb(244, 252, 135); */
+
+
+}
+
+input[type="text"]:focus {
+  border-color: #f5a80eda;
+  box-shadow: 0 0 8px 0 #f5a80eda;
+}
+
+.inputwithIcon input[type="text"] {
+  padding-left: 40px;
+}
+
+.inputwithIcon {
+  position: relative;
+}
+
+.inputwithIcon i{
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+  color: rgb(104, 103, 103);
+  transition: 0.3s;
+}
+
+.inputwithIcon input[type="text"]:focus + i {
+  color: #f5a80eda;
+}
+
+/* .inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+  color: #fff;
+  background-color: dodgerBlue;
+} */
+
+/*
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
