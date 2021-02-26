@@ -25,18 +25,6 @@ szlxa
 
 
 
-
-.form-box{
-  width:380px;
-  height:480px;
-  position: relative;
-  margin: 6% auto;
-  /* background: rgb(244, 252, 135); */
-  padding: 5px;
-  overflow: hidden;
-  
-}
-.button-box{
   width: 220px;
   margin: 35px auto;
   position: relative;
